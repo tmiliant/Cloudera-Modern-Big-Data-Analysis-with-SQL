@@ -8,6 +8,7 @@ Learned about Big Data storage/processing with Hive/Impala, HDFS, MapReduce, in-
 - normalizated and denormalized tables
 - structured, semi-structured and unstructured data
 
+Understanding Big Data architecture:
 - Big Data: Distributed Storage and Processing
 - the MapReduce framework - understanding Map tasks and Reduce tasks: map -> shuffle and sort -> reduce 
 - daemons for the faster Impala to reduce memory latency (so it does not use MapReduce)
@@ -18,7 +19,7 @@ Learned about Big Data storage/processing with Hive/Impala, HDFS, MapReduce, in-
 - table partitioning
 - Parquet/Avro files
 
--SQL in Hive/Impala with clauses:
+SQL in Hive/Impala with clauses:
   SELECT
   FROM
   WHERE
@@ -33,6 +34,7 @@ Learned about Big Data storage/processing with Hive/Impala, HDFS, MapReduce, in-
   +
   handling NULL values
   
+Managing Big Data stores, creating databases, tables and loading data into them:
 - create table from Hue or by using SQL statements
 - CTAS, views - materialized/non-materialized
 - data types
